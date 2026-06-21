@@ -39,7 +39,7 @@ export default function QRCodeGenerator() {
   const [qrCodes, setQrCodes] = useState<QRCodeData[]>([
     {
       id: generateId(),
-      url: "https://testflight.apple.com/join/3QQq9MgD",
+      url: "",
       customText: "",
       fontSize: "medium",
       textAlign: "center",
